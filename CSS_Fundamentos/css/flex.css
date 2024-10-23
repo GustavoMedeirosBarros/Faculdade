@@ -1,0 +1,24 @@
+.box {
+    width: 100%;
+    display: flex;
+    /* Eixo principal se moverá ao longo da linha > da direita para esquerda em flow-reverse */
+    flex-direction: row;
+    /* Para gerar uma quebra de linha automatica ao dar zoom */
+    flex-wrap: wrap;
+    /* Alinha texto */
+    /* text-align: center; */
+    /* Alinha a vertical */
+    /* align-items: center; */
+    /* Alinha na horizontal */
+    justify-content: center;
+}
+
+.car {
+    width: 170px;
+    border: 1px solid black;
+}
+
+.car img {
+    width: 100%;
+}
+
