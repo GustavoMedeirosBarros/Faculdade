@@ -20,6 +20,7 @@ body, ul {
     border-bottom-right-radius: 15px;
     border-bottom: 2px solid #ffe600;
     box-shadow: 1px 1px 2px #969696;
+    background: white;
 }
 
 #menu a:hover {
@@ -47,7 +48,7 @@ body, ul {
     align-items: center;
     justify-content: space-between;
     background: #e7e7e7;
-    box-shadow: 3px 3px 6px #b1b1b1 ; /* Sombra de menu  */
+    box-shadow: 3px 3px 6px #b1b1b1; /* Sombra de menu  */
     top: 0;
 }
 
@@ -56,8 +57,40 @@ body, ul {
     list-style: none;
     gap: 0.8rem;  /* rem unidade de medida relativa que varia de acordo com a dimensão do navegador ou dispositivo, por padrão, 1rem é igual a 16px */
     /* GAP > Define o espaçamento entre linhas e colunas */
+    z-index: 1000;
+    justify-content: center;
 }
 
 #btn-mobile {
     display: none;
+}
+
+/* .carousel {
+    padding: 20px;
+    width: 30%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleInterval {
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: auto;
+    z-index: 100;
+    margin-top: 10px;
+    
+}
+
+.carousel-item img {
+    max-height: 450px;
+    width: 60%;
+    /* border-radius: 25px; */
 }
